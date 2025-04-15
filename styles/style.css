@@ -49,7 +49,6 @@
   font-style: normal;  
 }
 
-
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -90,6 +89,7 @@
 .text__cover {
   display: block;
   line-height: 125px;
+  letter-spacing: 30px;
 }
 
 .text__center {
@@ -100,10 +100,6 @@
 .text__right {
   text-align: right;
   line-height: 120px;  
-}
-
-.text__cover { 
-  letter-spacing: 30px;
 }
 
 .text__cover .no__letter-spacing {
