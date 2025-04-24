@@ -76,14 +76,14 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 165px 50px 147px;
-  gap: 20px;
+  padding: 165px 20px 106px 50px;
+  gap: 21px;
 } 
 
 .cover__title span {
   font-size: 100px;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 114%;
 }
 
 .text__cover {
@@ -92,12 +92,12 @@
   letter-spacing: 30px;
 }
 
-.text__center {
+.text__middle {
   text-align: center;
   line-height: 125px;
 }
 
-.text__right {
+.text__last {
   text-align: right;
   line-height: 120px;
 }
@@ -113,16 +113,15 @@
 .cover__description {
   display: flex;
   align-items: baseline;
-  justify-content: space-evenly;
-  padding: 0px 50px 55px 78px;
-  gap: 79px;
+  justify-content: space-between;
+  padding: 0px 50px 51px 50px;
 }
 
 .cover__text {
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
-  word-spacing: 18px;
+  word-spacing: 19px;
 }
 
 .button {
@@ -155,8 +154,8 @@
   gap: 25px;
   justify-content: flex-start;
   padding: 0;
-  margin: 0 auto;
-  margin-left: 20px;
+  margin: 2px auto;
+  margin-left: 24px;
 }
 
 .card__lots a {
@@ -175,7 +174,7 @@
   display: flex;
   flex-direction: column;
   z-index: 1;
-  padding: 51px 40px 48px;
+  padding: 49px 44px 12px;
   justify-content: space-between;
   background-size: cover;
   background-repeat: no-repeat;
@@ -196,7 +195,7 @@
 
 .card__title {
   color: white;
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 120%;
   text-decoration-line: underline;
@@ -234,7 +233,7 @@
   display: grid;
   grid-template-columns: 334px repeat(1, 1fr);
   gap: 25px;
-  padding: 34px 24px 0px;
+  padding: 8px 24px 0px;
 }
 
 .about__logo {
@@ -276,12 +275,12 @@
   line-height: 24px;
 }
 
-.text__up {
-  padding-top: 76px;
+.text__top {
+  padding-top: 77px;
 }
 
-.text__down {
-  padding-top: 25px;
+.text__bottom {
+  padding-top: 24px;
 }
 
 .footer {
@@ -299,7 +298,7 @@
 }
 
 .footer__menu {
-  padding-left: 35px;
+  padding-left: 15px;
 }
 
 .footer__menu-list {
