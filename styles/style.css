@@ -22,7 +22,6 @@
   font-size: 18px;
   font-weight: 400;
   text-underline-offset: 4px;
-  text-decoration: underline;
 }
 
 .main__link-marker {
@@ -283,24 +282,6 @@
   padding-top: 24px;
 }
 
-.footer__menu {
-  justify-self: center;
-}
-
-.footer__menu-list {
-  list-style-type: none;
-  text-underline-offset: 3px;
-}
-
-.footer__menu-list-item {
-  color: black;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: normal;
-  width: 163.9px;
-}
-
 .footer__main {
   text-decoration: none;
 }
@@ -341,14 +322,8 @@
   justify-self: center;
 }
 
-.footer__menu-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
 .footer__menu-list-item {
+  text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -362,12 +337,6 @@
   text-decoration: underline;
 }
 
-.footer__social-link {
-  display: flex;
-  gap: 48px;
-  justify-self: end;
-}
-
 .footer__menu-list-item:first-child a {
   text-decoration: none;
 }
@@ -375,6 +344,7 @@
 /* расстояние между пунктами меню */
 .footer__menu-list {
   display: flex;
+  list-style: none;
   flex-direction: column;
   gap: 15px;
 }
