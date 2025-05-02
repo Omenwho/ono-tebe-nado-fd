@@ -270,7 +270,8 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 0px;
+  gap: 24px;
+  max-width: 688px;
 }
 
 .about__text p {
@@ -290,7 +291,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
-  padding: 181px 50px 88px;
+  padding: 157px 50px 88px;
 }
 
 .footer .address {
