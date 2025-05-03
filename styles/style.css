@@ -207,6 +207,12 @@
   margin: 0;
 }
 
+.card__link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
 .view__more {
   display: block;
   margin-left: 64px;
@@ -278,20 +284,11 @@
   margin: 0;
 }
 
-.about__text p:not(:last-of-type) {
-  margin-bottom: 0;
-}
-
-/* отступ после второго абзаца */
-.about__text p:nth-of-type(2) {
-  margin-bottom: 24px;
-}
-
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
-  padding: 157px 50px 88px;
+  padding: 181px 50px 88px;
 }
 
 .footer .address {
